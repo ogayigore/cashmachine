@@ -12,6 +12,24 @@
 		410BC76522020ED500E950C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410BC76322020ED500E950C5 /* Main.storyboard */; };
 		410BC76722020ED900E950C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410BC76622020ED900E950C5 /* Assets.xcassets */; };
 		410BC76A22020ED900E950C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410BC76822020ED900E950C5 /* LaunchScreen.storyboard */; };
+		410BC77722021E2400E950C5 /* CashmachineInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC77622021E2400E950C5 /* CashmachineInteractor.swift */; };
+		410BC77E220225F900E950C5 /* Accountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC778220225F800E950C5 /* Accountant.swift */; };
+		410BC77F220225F900E950C5 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC779220225F800E950C5 /* Good.swift */; };
+		410BC780220225F900E950C5 /* BillPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC77A220225F900E950C5 /* BillPrint.swift */; };
+		410BC781220225F900E950C5 /* ScanItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC77B220225F900E950C5 /* ScanItem.swift */; };
+		410BC782220225F900E950C5 /* Discountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC77C220225F900E950C5 /* Discountant.swift */; };
+		410BC783220225F900E950C5 /* Total.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC77D220225F900E950C5 /* Total.swift */; };
+		410BC7852202266000E950C5 /* Billable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC7842202266000E950C5 /* Billable.swift */; };
+		410BC7892202266D00E950C5 /* Tradable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC7862202266C00E950C5 /* Tradable.swift */; };
+		410BC78A2202266D00E950C5 /* Discountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC7872202266C00E950C5 /* Discountable.swift */; };
+		410BC78B2202266D00E950C5 /* Accountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC7882202266C00E950C5 /* Accountable.swift */; };
+		410BC78D22022E5400E950C5 /* CashmachinePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410BC78C22022E5400E950C5 /* CashmachinePresenter.swift */; };
+		41B75B0B2212E15500AE8D11 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B75B0A2212E15500AE8D11 /* Assembly.swift */; };
+		41B75B0D2212FA2300AE8D11 /* CashmachineInteractorProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B75B0C2212FA2300AE8D11 /* CashmachineInteractorProtocols.swift */; };
+		41B75B0F2212FA6C00AE8D11 /* ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B75B0E2212FA6C00AE8D11 /* ViewProtocols.swift */; };
+		41B75B112212FAA100AE8D11 /* CashmachinePresenterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B75B102212FAA100AE8D11 /* CashmachinePresenterProtocols.swift */; };
+		41B75B132212FAD300AE8D11 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B75B122212FAD300AE8D11 /* App.swift */; };
+		41B75B15221309B500AE8D11 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B75B14221309B500AE8D11 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,24 @@
 		410BC76622020ED900E950C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410BC76922020ED900E950C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410BC76B22020ED900E950C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410BC77622021E2400E950C5 /* CashmachineInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashmachineInteractor.swift; sourceTree = "<group>"; };
+		410BC778220225F800E950C5 /* Accountant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accountant.swift; sourceTree = "<group>"; };
+		410BC779220225F800E950C5 /* Good.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
+		410BC77A220225F900E950C5 /* BillPrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillPrint.swift; sourceTree = "<group>"; };
+		410BC77B220225F900E950C5 /* ScanItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanItem.swift; sourceTree = "<group>"; };
+		410BC77C220225F900E950C5 /* Discountant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discountant.swift; sourceTree = "<group>"; };
+		410BC77D220225F900E950C5 /* Total.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Total.swift; sourceTree = "<group>"; };
+		410BC7842202266000E950C5 /* Billable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Billable.swift; sourceTree = "<group>"; };
+		410BC7862202266C00E950C5 /* Tradable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tradable.swift; sourceTree = "<group>"; };
+		410BC7872202266C00E950C5 /* Discountable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discountable.swift; sourceTree = "<group>"; };
+		410BC7882202266C00E950C5 /* Accountable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Accountable.swift; sourceTree = "<group>"; };
+		410BC78C22022E5400E950C5 /* CashmachinePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashmachinePresenter.swift; sourceTree = "<group>"; };
+		41B75B0A2212E15500AE8D11 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		41B75B0C2212FA2300AE8D11 /* CashmachineInteractorProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashmachineInteractorProtocols.swift; sourceTree = "<group>"; };
+		41B75B0E2212FA6C00AE8D11 /* ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocols.swift; sourceTree = "<group>"; };
+		41B75B102212FAA100AE8D11 /* CashmachinePresenterProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashmachinePresenterProtocols.swift; sourceTree = "<group>"; };
+		41B75B122212FAD300AE8D11 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		41B75B14221309B500AE8D11 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +90,80 @@
 		410BC75E22020ED500E950C5 /* Cashmachine VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				410BC75F22020ED500E950C5 /* AppDelegate.swift */,
-				410BC76122020ED500E950C5 /* ViewController.swift */,
-				410BC76322020ED500E950C5 /* Main.storyboard */,
+				41B75B092212E14900AE8D11 /* Assembly */,
+				41B75B082212E0F100AE8D11 /* App */,
+				410BC77122020EF100E950C5 /* View */,
+				410BC77222020EF900E950C5 /* Interactor */,
+				410BC7732202113100E950C5 /* Presenter */,
+				410BC7742202114300E950C5 /* Entities */,
 				410BC76622020ED900E950C5 /* Assets.xcassets */,
 				410BC76822020ED900E950C5 /* LaunchScreen.storyboard */,
 				410BC76B22020ED900E950C5 /* Info.plist */,
+				41B75B14221309B500AE8D11 /* Store.swift */,
 			);
 			path = "Cashmachine VIPER";
+			sourceTree = "<group>";
+		};
+		410BC77122020EF100E950C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				410BC76122020ED500E950C5 /* ViewController.swift */,
+				410BC76322020ED500E950C5 /* Main.storyboard */,
+				41B75B0E2212FA6C00AE8D11 /* ViewProtocols.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		410BC77222020EF900E950C5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				410BC77622021E2400E950C5 /* CashmachineInteractor.swift */,
+				41B75B0C2212FA2300AE8D11 /* CashmachineInteractorProtocols.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		410BC7732202113100E950C5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				410BC78C22022E5400E950C5 /* CashmachinePresenter.swift */,
+				41B75B102212FAA100AE8D11 /* CashmachinePresenterProtocols.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		410BC7742202114300E950C5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				410BC7882202266C00E950C5 /* Accountable.swift */,
+				410BC7872202266C00E950C5 /* Discountable.swift */,
+				410BC7862202266C00E950C5 /* Tradable.swift */,
+				410BC778220225F800E950C5 /* Accountant.swift */,
+				410BC77A220225F900E950C5 /* BillPrint.swift */,
+				410BC77C220225F900E950C5 /* Discountant.swift */,
+				410BC779220225F800E950C5 /* Good.swift */,
+				410BC77B220225F900E950C5 /* ScanItem.swift */,
+				410BC77D220225F900E950C5 /* Total.swift */,
+				410BC7842202266000E950C5 /* Billable.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		41B75B082212E0F100AE8D11 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				410BC75F22020ED500E950C5 /* AppDelegate.swift */,
+				41B75B122212FAD300AE8D11 /* App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		41B75B092212E14900AE8D11 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				41B75B0A2212E15500AE8D11 /* Assembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +237,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410BC783220225F900E950C5 /* Total.swift in Sources */,
+				41B75B0B2212E15500AE8D11 /* Assembly.swift in Sources */,
+				410BC782220225F900E950C5 /* Discountant.swift in Sources */,
+				41B75B132212FAD300AE8D11 /* App.swift in Sources */,
+				41B75B112212FAA100AE8D11 /* CashmachinePresenterProtocols.swift in Sources */,
+				41B75B0D2212FA2300AE8D11 /* CashmachineInteractorProtocols.swift in Sources */,
+				410BC77722021E2400E950C5 /* CashmachineInteractor.swift in Sources */,
 				410BC76222020ED500E950C5 /* ViewController.swift in Sources */,
+				410BC7852202266000E950C5 /* Billable.swift in Sources */,
+				410BC78D22022E5400E950C5 /* CashmachinePresenter.swift in Sources */,
+				41B75B0F2212FA6C00AE8D11 /* ViewProtocols.swift in Sources */,
+				410BC77F220225F900E950C5 /* Good.swift in Sources */,
+				410BC7892202266D00E950C5 /* Tradable.swift in Sources */,
 				410BC76022020ED500E950C5 /* AppDelegate.swift in Sources */,
+				410BC78B2202266D00E950C5 /* Accountable.swift in Sources */,
+				41B75B15221309B500AE8D11 /* Store.swift in Sources */,
+				410BC780220225F900E950C5 /* BillPrint.swift in Sources */,
+				410BC781220225F900E950C5 /* ScanItem.swift in Sources */,
+				410BC78A2202266D00E950C5 /* Discountable.swift in Sources */,
+				410BC77E220225F900E950C5 /* Accountant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R82428TV8S;
 				INFOPLIST_FILE = "Cashmachine VIPER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R82428TV8S;
 				INFOPLIST_FILE = "Cashmachine VIPER/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
